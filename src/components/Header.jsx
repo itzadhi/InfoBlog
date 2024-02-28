@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container>
           <Link to='/'>
-            <Navbar.Brand>Blog</Navbar.Brand>
+            <Navbar.Brand>User Records</Navbar.Brand>
           </Link>
         </Container>
       </Navbar>
