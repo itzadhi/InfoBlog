@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import 'react-loading-skeleton/dist/skeleton.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
