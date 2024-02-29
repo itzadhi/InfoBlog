@@ -6,6 +6,7 @@ function CardSkeleton() {
     <div className='col-md-3 col-12 mb-3 d-flex align-items-stretch justify-content-evenly'>
       <div className='card shadow mt-2 text-start' style={{ width: '18rem' }}>
         <img
+          alt='dummy'
           className='rounded-circle mt-2'
           style={{
             width: '6rem',
