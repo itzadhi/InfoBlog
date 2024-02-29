@@ -1,5 +1,4 @@
 import React from 'react';
-import Spinner from './Spinner';
 
 const FormComponent = ({
   userInfo,
@@ -187,15 +186,9 @@ const FormComponent = ({
       </div>
 
       <div className='col-12 mb-5 mt-4 d-flex justify-content-center'>
-        {!loading ? (
-          <button disabled={true} className='btn btn-primary'>
-            <Spinner />
-          </button>
-        ) : (
-          <button type='submit' className='btn btn-primary'>
-            {btnName}
-          </button>
-        )}
+        <button disabled={loading} type='submit' className='btn btn-primary'>
+          {btnName}
+        </button>
       </div>
     </form>
   );

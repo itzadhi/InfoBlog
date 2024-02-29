@@ -5,11 +5,19 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 const Header = () => {
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg'>
+      <Navbar collapseOnSelect bg='dark' expand='lg' variant='dark'>
         <Container>
-          <Link to='/'>
-            <Navbar.Brand>User Records</Navbar.Brand>
-          </Link>
+          <Navbar.Brand className='fs-4'>
+            <Link to='/' className='text-decoration-none text-light'>
+              User Records
+            </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle />
+          <Navbar.Collapse className='justify-content-end'>
+            <Link to='/add'>
+              <button className='btn btn-outline-success'>Add</button>
+            </Link>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </header>

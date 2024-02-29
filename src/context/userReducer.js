@@ -23,6 +23,12 @@ const userReducer = (state, action) => {
         userData: action.payload,
         loading: false,
       };
+    case 'DELETE_DATA':
+      return {
+        ...state,
+        userData: action.payload,
+        loading: false,
+      };
     case 'ERROR':
       return {
         ...state,
