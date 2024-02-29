@@ -12,7 +12,7 @@ $ git clone https://github.com/itzadhi/User-Records.git
 ```
 
 ```sh
-$ cd User-Records
+$ cd user-records
 ```
 
 ```sh
