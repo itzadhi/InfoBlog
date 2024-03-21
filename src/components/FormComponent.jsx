@@ -20,6 +20,7 @@ const FormComponent = ({
           id='name'
           value={userInfo?.name}
           onChange={handleChange}
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -32,6 +33,7 @@ const FormComponent = ({
           onChange={handleChange}
           className='form-control'
           id='username'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -44,6 +46,7 @@ const FormComponent = ({
           onChange={handleChange}
           className='form-control'
           id='email'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -56,6 +59,7 @@ const FormComponent = ({
           onChange={handleChange}
           className='form-control'
           id='phoneNumber'
+          required={true}
         />
       </div>
 
@@ -71,6 +75,7 @@ const FormComponent = ({
           className='form-control'
           id='street'
           placeholder='Street Name - 1234 Main St'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -84,6 +89,7 @@ const FormComponent = ({
           className='form-control'
           id='suite'
           placeholder='Suite - Apt. 556'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -96,6 +102,7 @@ const FormComponent = ({
           type='text'
           className='form-control'
           id='city'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -108,6 +115,7 @@ const FormComponent = ({
           onChange={handleChange}
           className='form-control'
           id='zipCode'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -120,6 +128,7 @@ const FormComponent = ({
           onChange={handleChange}
           className='form-control'
           id='latitude'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -132,6 +141,7 @@ const FormComponent = ({
           onChange={handleChange}
           className='form-control'
           id='longitude'
+          required={true}
         />
       </div>
 
@@ -146,6 +156,7 @@ const FormComponent = ({
           onChange={handleChange}
           className='form-control'
           id='companyName'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -158,6 +169,7 @@ const FormComponent = ({
           type='text'
           className='form-control'
           id='website'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -170,6 +182,7 @@ const FormComponent = ({
           type='text'
           className='form-control'
           id='catchPhrase'
+          required={true}
         />
       </div>
       <div className='col-md-6'>
@@ -182,6 +195,7 @@ const FormComponent = ({
           type='text'
           className='form-control'
           id='business'
+          required={true}
         />
       </div>
 
