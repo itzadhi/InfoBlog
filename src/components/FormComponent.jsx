@@ -74,7 +74,6 @@ const FormComponent = ({
           type='text'
           className='form-control'
           id='street'
-          placeholder='Street Name - 1234 Main St'
           required={true}
         />
       </div>
@@ -88,7 +87,6 @@ const FormComponent = ({
           type='text'
           className='form-control'
           id='suite'
-          placeholder='Suite - Apt. 556'
           required={true}
         />
       </div>
