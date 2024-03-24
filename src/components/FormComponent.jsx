@@ -90,7 +90,7 @@ const FormComponent = ({
           required={true}
         />
       </div>
-      <div className='col-md-6'>
+      <div className='col-md-3'>
         <label htmlFor='city' className='form-label'>
           City
         </label>
@@ -103,7 +103,7 @@ const FormComponent = ({
           required={true}
         />
       </div>
-      <div className='col-md-6'>
+      <div className='col-md-3'>
         <label htmlFor='zipCode' className='form-label'>
           Zip Code
         </label>
@@ -116,7 +116,7 @@ const FormComponent = ({
           required={true}
         />
       </div>
-      <div className='col-md-6'>
+      <div className='col-md-3'>
         <label htmlFor='latitude' className='form-label'>
           Latitude
         </label>
@@ -129,7 +129,7 @@ const FormComponent = ({
           required={true}
         />
       </div>
-      <div className='col-md-6'>
+      <div className='col-md-3'>
         <label htmlFor='longitude' className='form-label'>
           Longitude
         </label>
